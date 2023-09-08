@@ -1,0 +1,71 @@
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headerContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContentLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+}
+
+.headerContentLogo h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headerContentLogo:hover {
+    cursor: pointer;
+}
+
+.headerContentButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    padding-right: 5px;
+}
+
+.headerContentButton {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerContentButton:hover h2 {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.headerContentButton:hover {
+    cursor: pointer;
+}
+
+.headerContentButton h2 {
+    font-size: 15px;
+}
